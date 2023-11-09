@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Block Element</title>
+    <style>
+        h1,h2,h3 {
+            border: 2px solid black;
+        }
+
+        h1 {
+            width: fit-content;
+        }
+
+        a {
+            display: inline-block;
+            border: 2px solid black;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        Block element : Tag html yang akan membuat baris baru ketika tag tersebut dibuat > 1.
+        Inline element : Tag html yang tidak akan membuat baris baru ketika tag tersebut dibuat > 1.
+
+        Block element itu bisa ditambahkan width (lebar) atau heightnya (tinggi).
+        Inline-element itu ga bisa ditambhkan width (lebar) atau heightnya (lebar).
+        Inline-block element : konsep ini bisa memodifikasi width atau height dari si tag tersebut.
+    -->
+    <!-- contoh block element -->
+    <h1 style="display: inline-block;">Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+
+    <!-- contoh inline-element -->
+    <a href="">Link 1</a>
+    <a href="">Link 2</a>
+    <a href="">Link 3</a>
+</body>
+</html>

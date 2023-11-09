@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Membuat Formulir HTML</title>
+</head>
+<body>
+    <!-- 
+        Membuat formulir di HTML :
+        1. buat tag form
+        2. label
+        3. input
+        Atribut input :
+            a. type = text (masukin inputan berupa text) [sering dipake]
+            b. type = password (masukin inputan password) [sering dipake]
+            c. type = radio (memilih pilihan hanya 1) [sering dipake]
+            d. type = checkbox (memilih pilihan > 1) [sering dipake]
+            e. type = number
+            f. type = color (milih warna)
+            g. type = date (memilih tanggal)
+            h. type = range (memilih angka pada batas tertentu)
+        4. atribute placeholder : keterangan sebelum mengisi inputan.
+    -->
+    <form action="">
+        <!-- input type text -->
+        <label for="nama">Nama lengkap</label>
+        <input type="text" id="nama" placeholder="isi nama lengkap Anda">
+
+        <br>
+        <br>
+
+        <!-- input type text -->
+        <label for="">Umur</label>
+        <input type="text" placeholder="isi umur Anda">
+
+        <br>
+        <br>
+
+        <!-- input type checkbox -->
+        <label for="">Hobby</label>
+        Berenang <input type="checkbox">
+        <input type="checkbox">Jogging
+
+        <br>
+        <br>
+
+        <!-- input type radio -->
+        <label for="">Jenis kelamin</label>
+        <input type="radio" name="jk">Laki-laki
+        <input type="radio" name="jk">Perempuan
+        <!-- 
+            biar radio buttonya cuma bisa milih 1 pilihan,
+            tambahkan atribut name dengan isi/value yang sama.
+        -->
+
+        <br>
+        <br>
+
+        <!-- input type password -->
+        <label for="">Password</label>
+        <input type="password">
+
+        <br>
+        <br>
+
+        <!-- input type color -->
+        <label for="">Pilih warna </label>
+        <input type="color">
+
+        <br>
+        <br>
+
+        <!-- input type date -->
+        <label for="">Tanggal lahir</label>
+        <input type="date">
+
+        <br>
+        <br>
+
+        <!-- input type range -->
+        <label for="">Berat badan</label>
+        <input type="range">
+
+        <!-- tambahan : tag button (center tag button)-->
+        <br>
+        <div style="text-align: center;">
+            <button>Kirim</button>
+        </div>
+    </form>
+</body>
+</html>

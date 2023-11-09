@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Tag List</title>
+</head>
+<body>
+    <!-- 
+        1. ol : ordered list (list yang terurut)
+            type ol : 1 (default), A, a, I, i
+        2. ul : unordered list (tidak terurut)
+            type ul : square, circle, disc (default)
+        
+        Istilah : nested list (list di dalam list)
+    -->
+    <p>Susunan paragraf</p>
+    <ol type="a">
+        <li>
+            Pembukaan
+            <ol type="1">
+                <li>Sambutan Kepala Sekolah</li>
+                <li>
+                    Sambutan ketua pelaksana
+                    <ul type="disc">
+                        <li>
+                            Putra
+                            <ol type="1">
+                                <li>Aufa Candra</li>
+                            </ol>
+                        </li>
+                        <li>Putri</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <li>Pembacaan Qur'an</li>
+        <!-- 
+            a. Pembukaan
+                1. Sambutan kepala sekolah
+                2. Sambutan ketua pelaksana
+                    .putra
+                        1. Aufa Candra
+                    .putri
+            b. Pembacaan Qur'an
+        -->
+    </ol>
+    <hr>
+    <ul type="circle">
+        <li>Tes 1</li>
+    </ul>
+</body>
+</html>

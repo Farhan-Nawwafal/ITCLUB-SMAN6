@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkenalan CSS</title>
+</head>
+<body>
+    <!-- 
+        CSS : kepanjangan dari Cascading Style Sheets.
+        Fungsi CSS :
+        1. Membuat tampilan lebih indah.
+        2. Membuat animasi dan transisi.
+        3. lebih interaktif secara tampilan.
+
+        Teknik penulisan CSS :
+        1. Inline CSS   : nulis kode css di dalam "tag pembuka html."
+            Caranya : style="property1:value1; property2:value2; property-n:value-n" (pemisah antar property dan value itu pake spasi).
+            Jenis property :
+            a. color            : style="color:red";
+            b. font-size        : style="font-size:30px;" (satuan bisa px, %).
+            c. font-family      : style="font-family:Arial;"
+            d. text-align       : style="text-align:center;"
+                ada 3 nilai/value : (left[nilai default]), (center), (right).
+            e. text-transform (untuk membuat tulisan jadi upper, capitalize atau lower) : style=
+                ada 3 nilai/value : uppercase (membuat semua tulisan kapital), capiltalize (membuat huruf pertama dari kata pertama kapital), lowercase (untuk membuat semuat tulisan huruf kecil).
+        2. Internal CSS : nulis kode css di dalem tag head (di bawah style).
+            Caranya : <style></style>
+        3. External CSS : nulis kode css di file yang terpisah.
+            Ekstensi kodenya pake "nama-file.css"
+    -->
+    <!-- contoh inline css -->
+    <!-- contoh 1 : property color-->
+    <p style="color:red; text-align:center;">Hello World!</p>
+    <!-- contoh 2 : property font-size -->
+    <p style="font-size:30px;">Hello World!</p>
+    <!-- contoh 3 : property font-family -->
+    <p style="font-family:Arial;">Hello World!</p>
+    <!-- contoh 4 : property text-align -->
+    <p style="text-align:center;">Tulisan ini di tengah</p>
+    <!-- contoh 5 : property text-align dan text-transform -->
+    <p style="text-align:center; text-transform:capitalize">Tulisan ini di tengah</p>
+    <p style="text-align:center; text-transform:uppercase">Tulisan ini di tengah</p>
+    <p style="text-align:center; text-transform:lowercase">Tulisan ini di tengah</p>
+</body>
+</html>
