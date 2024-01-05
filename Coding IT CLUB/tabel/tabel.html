@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Tabel HTML</title>
+</head>
+<body>
+    <!-- 
+        1. <table width="" border="1"></table>
+            atribut :
+                a. width : lebar tabel (satuan nya cm, "%", px) {WAJIB ADA}
+                b. border : 1 (garis untuk tabel, ditulis tanpa satuan) {WAJIB ADA}
+                c. cellpadding : jarak antar sel dan isi sel {OPSIONAL}
+                d. cellspacing : jarak antar border {OPSIONAL}
+                e. align : left (default), center, right {OPSIONAL}
+        2. <thead></thead> : table head 
+        3. <tbody></tbody> : table body
+        4. <tr></tr> : table row (bikin baris baru)
+        5. <th></th> : table head 
+        6. <td></td> : table data
+        7. span : menggabungkan "sesuatu" menjadi
+        8. colspan : menggabungkan 2 kolom atau lebih menjadi 1.
+        9. rowspan : menggabungkan 2 baris atau lebih menjadi 1.
+    -->
+    <table width="100%" border="1">
+        <thead>
+            <tr>
+                <th>Nomor</th>
+                <th>Nama</th>
+                <th>Kelas</th>
+                <th>Test</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Farhan</td>
+                <td>IF-4</td>
+                <td>Test</td>
+            </tr>
+            
+            <tr>
+                <td>2</td>
+                <td>Mutiara</td>
+                <td>12 MIPA 2</td>
+                <td>Test</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table width="100%" border="1">
+        <thead>
+            <tr></tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">Cell 1-1</td>
+                <td>Cell 1-2</td>
+                <td>Cell 1-3</td>
+            </tr>
+
+            <tr>
+                <td>Cell 2-1</td>
+                <td>Cell 2-2</td>
+            </tr>
+
+            <tr>
+                <td>Cell 2-1</td>
+                <td>Cell 2-2</td>
+                <td>Cell 2-3</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
